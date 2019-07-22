@@ -1,0 +1,15 @@
+.left-sidebar {
+    background: white;
+    height: 100vh;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.quick-links {
+    margin-left: 53px;
+    margin-top: 7px;
+}
+
+.quick-links a {
+    color: black;
+    text-decoration: none;
+}
