@@ -28,7 +28,13 @@ class CardController extends Controller
      */
     public function create()
     {
-        return view('admin.card.create');
+        $cards = Card::where('user_id',Auth::User()->id)->first();
+        if ($cards == null) {
+            return view('admin.card.create');
+        }else{
+            return abort(404);
+        }
+        
     }
 
     /**

@@ -11,7 +11,7 @@
             <a href="{{ route('admin.developer') }}">Developer</a>
         </div>
          <div class="quick-links">
-            <a href="">Dashboard</a>
+            <a href="{{ route('admin.balence') }}">Balence</a>
         </div>
          <div class="quick-links">
             <a href="">Dashboard</a>
